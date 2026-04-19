@@ -280,7 +280,7 @@ streamlit run app/streamlit_app.py
 
 - **Prakash Makwana** - U23CS115
 - **Mohammad Shahil** - U23CS120  
-- **Email:** shahil020668@gmail.com
+- **Email:** mohammadshahil0068@gmail.com
 - **Supervisor:** Dr. Sourajit Behera, SVNIT Surat
 
 ---
