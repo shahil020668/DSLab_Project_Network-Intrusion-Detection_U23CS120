@@ -1,22 +1,22 @@
 # Core Libraries
-numpy==1.26.4
-pandas==2.2.2
-matplotlib==3.8.4
-seaborn==0.13.2
+numpy>=1.26.4
+pandas>=2.2.2
+matplotlib>=3.8.4
+seaborn>=0.13.2
+
 # Machine Learning
-scikit-learn==1.4.2
-imbalanced-learn==0.12.2
-xgboost==2.0.3
-lightgbm==4.3.0
-python-pptx==0.6.23
+scikit-learn>=1.4.2
+imbalanced-learn>=0.12.2
+xgboost>=2.0.3
+lightgbm>=4.3.0
+python-pptx
+
 # Deep Learning
-tensorflow==2.16.1
+tensorflow>=2.16.1  # Note: This may still fail if TF hasn't updated for 3.14
+
 # Explainability
-shap==0.45.1
-# Hyperparameter Tuning
-optuna==3.6.1
-# Utilities
-joblib==1.4.2
-jupyter==1.0.0
-# Deployment
-streamlit==1.35.0
+shap
+
+# Utilities & Deployment
+joblib
+streamlit>=1.35.0
