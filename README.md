@@ -143,7 +143,49 @@ jupyter notebook notebooks/
 
 ---
 
-## 🔬 Key Features
+## � Output Results & Visualizations
+
+### Model Comparison
+![Model Performance Comparison](outputs/model_comparison/model_comparison.png)
+
+### ROC Curves
+**Combined ROC Curve Comparison:**
+![ROC Curve Comparison](outputs/roc_curves/roc_curve_comparison_all.png)
+
+**Individual Model ROC Curves:**
+
+| XGBoost | Random Forest | SVM |
+|---------|---------------|-----|
+| ![XGBoost ROC](outputs/roc_curves/XGBoost_roc_curve.png) | ![RF ROC](outputs/roc_curves/RandomForest_roc_curve.png) | ![SVM ROC](outputs/roc_curves/SVM_roc_curve.png) |
+
+| Gradient Boosting | Logistic Regression |
+|------------------|------------------|
+| ![GB ROC](outputs/roc_curves/GradientBoosting_roc_curve.png) | ![LR ROC](outputs/roc_curves/LogisticRegression_roc_curve.png) |
+
+### Confusion Matrices
+
+| XGBoost | Random Forest | SVM |
+|---------|---------------|-----|
+| ![XGBoost CM](outputs/confusion_matrix/XGBoost_confusion_matrix.png) | ![RF CM](outputs/confusion_matrix/RandomForest_confusion_matrix.png) | ![SVM CM](outputs/confusion_matrix/SVM_confusion_matrix.png) |
+
+| Gradient Boosting | Logistic Regression | CNN Model |
+|------------------|------------------|-----------|
+| ![GB CM](outputs/confusion_matrix/GradientBoosting_confusion_matrix.png) | ![LR CM](outputs/confusion_matrix/LogisticRegression_confusion_matrix.png) | ![CNN CM](notebooks/outputs/confusion_matrix/Model_confusion_matrix.png) |
+
+### Exploratory Data Analysis (EDA)
+
+**Attack Distribution:**
+![Attack Distribution](outputs/eda/attack_distribution.png)
+
+**Feature Correlation Heatmap:**
+![Correlation Heatmap](outputs/eda/correlation_heatmap.png)
+
+**Top 20 Feature Importance:**
+![Feature Importance](outputs/eda/feature_importance_top20.png)
+
+---
+
+## �🔬 Key Features
 
 ✅ **98.8% Accuracy** - Best-in-class performance  
 ✅ **Hybrid Approach** - ML + DL + Anomaly Detection  
