@@ -30,7 +30,7 @@ This project implements a **Hybrid Network Intrusion Detection System** combinin
 | Mohammad Shahil | U23CS120 | Feature Engineering & Deployment |
 
 **Supervised by:** Dr. Sourajit Behera, CSE Department, SVNIT Surat  
-**Academic Year:** 2024-25
+**Academic Year:** 2025-26
 
 ---
 
